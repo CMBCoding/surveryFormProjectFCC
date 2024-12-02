@@ -1,0 +1,105 @@
+body {
+    background-color: #141617; 
+    color: #FFFFFF; 
+    font-family: Lucida Console;
+  } 
+  
+  form {
+    border: #53E836;
+    display: block;
+    min-width: 300px;
+    box-shadow: 4px 5px #36454F;
+    width: 80vw;
+    margin: auto;
+  }
+  
+  p {
+  color: #FFFFFF; 
+  text-align: center;
+  min-width: 300px;
+  width: 80vw;
+  margin: auto;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  } 
+
+  label {
+    display: block;
+    margin: 1px;
+  }
+
+  h1 {
+  color: #53E836; 
+  text-align: center;
+  border:2px solid #53E836; 
+  padding: 5px; 
+  margin: 5px;
+  box-shadow: 4px 5px #36454F;
+  } 
+  
+  h2 {
+  color: #53E836; 
+  text-align: center;
+  border:2px solid #53E836; 
+  padding: 5px; 
+  margin: 5px;
+  } 
+  
+  h2:hover {
+   color: #FFFFFF;
+   background-color: #53E836;
+   text-decoration: none;
+   border:2px solid #FFFFFF; 
+  } 
+
+  input, option, select {
+    background-color: #71706E;
+    color: #FFFFFF;
+  }
+
+  ::placeholder {
+    color: #A9A9A9;
+  }
+
+  strong {
+    color: #FFFFFF;
+    background-color: #36454F;
+  }
+
+  textarea {
+    display: block;
+    background-color: #71706E;
+    color: #FFFFFF;
+  }
+
+  fieldset {
+    padding: 1em;
+    box-shadow: 1.5px 1.5px 1.5px #53E836 inset;
+    border: none;
+    padding: 0.5em;
+  }
+
+  fieldset:last-of-type {
+    box-shadow: 1.5px 1.5px 1.5px #53E836 inset;
+  }
+  
+  button {
+    color: #53E836;
+    font-family: Lucida Console;
+    font-size: medium;
+    text-align: center;
+    background-color: #141617;
+    border: 2px solid #53E836;
+    height: 40px;
+    width: 220px;
+    display: block;
+    margin: auto;
+  }
+  
+  button:hover {
+   color: #FFFFFF;
+   background-color: #53E836;
+   text-decoration: none;
+   border:2px solid #FFFFFF; 
+  }
+  

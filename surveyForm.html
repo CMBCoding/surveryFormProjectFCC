@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="US-en">
+
+<head>
+    <title>Survey Form</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="surveyStyles.css">
+</head>
+
+<body>
+    <h1 id="title">Account Creation</h1>
+    <p id="description">Please fill in the following fields to 
+        complete your registration:</p>
+    <form id="survey-form">
+        <fieldset>
+            <label id="name-label" for="name">
+                Please enter your username: 
+                <input id="name" type="text" placeholder="HHUser13" required>
+            </label>
+        </fieldset>
+        <fieldset>
+            <label id="email-label" for="email">
+                Please enter your email: 
+                <input id="email" type="email" placeholder="username@gmail.com" required>
+            </label>
+        </fieldset>
+        <fieldset>
+            <label id="number-label" for="number">
+                Please input your age: 
+                <input id="number" type="number" min="14" max="120" placeholder="14">
+            </label>
+        </fieldset>
+        <fieldset>
+            <label id="select-label" for="dropdown">
+                Which District do you live in?: 
+                <select id="dropdown" required>
+                    <option>...</option>
+                    <option value="1">Autumn Heights</option>
+                    <option value="2">Baroque Ridge</option>
+                    <option value="3">Blackfish Industrial</option>
+                    <option value="4">Downtown</option>
+                    <option value="5">Little Asia</option>
+                    <option value="6">Pierside</option>
+                    <option value="7">Silicon Square</option>
+                    <option value="8">University Place</option>
+                </select>
+            </label>
+        </fieldset>
+        <fieldset>
+            <label id="spacer">
+                <legend>Have you encountered any Paranormal Activity before?:</legend>
+            </label>
+            <label for="ghosts-yes">
+                <input id="ghosts-yes" type="radio" name="ghosts-encount" value="1">Yes
+            </label>
+            <label for="ghosts-no">
+                <input id="ghosts-no" type="radio" name="ghosts-encount" value="2" checked>No
+            </label>
+        </fieldset>
+        <fieldset>
+            <label id="textarea-label" for="bio">
+                Please write a few sentences about yourself for your forum bio.
+                <textarea id="bio" rows="4" cols="50" placeholder="I am an Emerald Sound citizen who would like to..."></textarea>
+            </label>
+        </fieldset>
+        <fieldset>  
+            Please check the following boxes to continue
+            <label id="checkbox-label-one" for="checkbox-TaC">
+                <input id="checkbox-TaC" type="checkbox" value="1" required>
+                By checking this box, I agree to the <strong>terms and conditions</strong> <em>(required)</em>.
+            <label id="checkbox-label-two" for="checkbox-data">
+                <input id="checkbox" type="checkbox" value="2">
+                By checking this box, I agree to share my data to improve the application.
+            </label>
+        </fieldset>
+        <br>
+        <button id="submit" type="submit">Click here to submit</button>
+        <br>
+    </form>
+</body>
+
+</html>
